@@ -1,13 +1,12 @@
 import React from "react";
-
-import Regibe from "./Pages";
+import Recibe from "./Pages/Recibe.js";
 
 function App() {
 
   return (
     <div className="App">
      
-        <Regibe/>
+        <Recibe/>
     </div>
   );
 }
