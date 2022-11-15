@@ -1,4 +1,3 @@
-
 function App() {
 
   const APP_ID = "bc2440e7";
@@ -10,9 +9,14 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container" style={{width:"500px"}} >
+        <form className="form-control " style={{display:"flex",justifyContend:"center",marginTop:"20px"}}> 
+          <input className="form-control" type="text" />
+          <button className="btn btn-primary" type="submit">Search</button>
+        </form>
       
-      </header>
+      </div>
+      
     </div>
   );
 }
