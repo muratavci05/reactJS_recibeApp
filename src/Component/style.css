@@ -25,9 +25,11 @@ body{
 }
 
 .headerContainer:hover{
-    border-radius:55px 55px 55px 55px;
-    background-color: #bde9a4;
+    cursor: pointer;
+    border-radius:55px 55px 95px 95px;
     transition: 0.5sn;
+    box-shadow: 3px 3px 3px  10px rgb(95, 236, 99);
+
 }
 
 
