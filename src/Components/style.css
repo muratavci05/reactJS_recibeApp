@@ -29,8 +29,13 @@ body{
     height:40px;
     border:none;
     outline:none;
-    border-radius: 1rem;
+    border-radius: 0px 18px 18px 0px;
     padding: 0.3rem 1rem;
+}
+
+.search-bar::placeholder{
+    font-size: 14px;
+    color: red;
 }
 
 .trtitle{

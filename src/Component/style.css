@@ -7,13 +7,33 @@
     margin: 0;
     font-family: 'Bona Nova', serif;
 }
+
 body{
-    background-color: #64874f;
+    background-color: #bde9a4;
 }
 .main{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+}
+.headerContainer{
+    width: 200px;
+    height:100px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius:45px 45px 45px 45px;
+}
+
+.headerContainer:hover{
+    border-radius:55px 55px 55px 55px;
+    background-color: #bde9a4;
+    transition: 0.5sn;
+}
+
+
+.headerLogoText{
+    text-decoration: none;
+    color: blue;
 }
 .heading h1{
     color:#030e12;

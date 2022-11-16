@@ -40,8 +40,8 @@ const Meal = () => {
           </h4>
         </div>
         <div className="searchBox">
-          <input
-            placeholder="👨‍💻Ingredients Recipe - for example >> Apple"
+          <input 
+            placeholder="👨‍💻Recipe by Main Ingredient - for example >> Apple"
             type="search"
             className="search-bar"
             onChange={(event) => setSearch(event.target.value)}

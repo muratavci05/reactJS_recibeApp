@@ -5,8 +5,12 @@ var id="";
 const Recipe = () => {
     const [item, setItem] = useState(); 
     const { recipeId } = useParams();
+
+    
     if (recipeId !==" ") {
-        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeId}`).then(res => res.json()).then(data => {
+        fetch(`https://www.themealdb.com/api/json/v1/1/lookup.php?i=${recipeId}`)
+        .then((res) => res.json())
+        .then(data => {
             setItem(data.meals[0]);  
         })
     }
@@ -18,7 +22,7 @@ const Recipe = () => {
   
 
     return (
-        <>
+        <React.Fragment>
             {
                 (!item) ? "" : <div className="content">
                     <img src={item.strMealThumb} alt="" />
@@ -62,7 +66,7 @@ const Recipe = () => {
                 </div>
             }
 
-        </>
+        </React.Fragment>
     )
 }
 export default Recipe
