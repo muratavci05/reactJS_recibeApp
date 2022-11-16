@@ -8,7 +8,7 @@
     font-family: 'Bona Nova', serif;
 }
 body{
-    background-color: #fcde67;
+    background-color: #83ecc7;
 }
 .main{
     width: 80%;
@@ -31,6 +31,10 @@ body{
     outline:none;
     border-radius: 1rem;
     padding: 0.3rem 1rem;
+}
+
+.trtitle{
+    color: rgb(93, 93, 180);
 }
 .container{
     width: 80%;

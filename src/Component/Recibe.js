@@ -1,8 +1,12 @@
-import React from "react";
-import { useState } from "react";
+import React,{ useState } from "react";
 import { useParams } from "react-router-dom";
+
+
 var id="";
-const Recipe = () => {
+
+const Recipe = (props) => {
+
+    console.log("Recipe Props",props)
     const [item, setItem] = useState(); 
     const { recipeId } = useParams();
     if (recipeId !==" ") {
@@ -10,7 +14,7 @@ const Recipe = () => {
             setItem(data.meals[0]);  
         })
     }
-    if(item){
+    if (item) {
       const strYoutube= item.strYoutube;
       const str=strYoutube.split("=");
       id=str[str.length-1];
@@ -18,7 +22,7 @@ const Recipe = () => {
   
 
     return (
-        <>
+        <div>
             {
                 (!item) ? "" : <div className="content">
                     <img src={item.strMealThumb} alt="" />
@@ -62,7 +66,7 @@ const Recipe = () => {
                 </div>
             }
 
-        </>
+        </div>
     )
 }
 export default Recipe
