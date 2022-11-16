@@ -24,13 +24,25 @@
     width: 180px;
     border-radius: 1rem;
     margin-top: 20px;
+    background-color: black;
+    padding: 5px;
 }
 
 .foodCart img{
     width: 100%;
-    border-radius: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem 1rem 1rem 1rem ;
 }
 .foodCart img:hover{
     cursor: pointer;
     background-color: black;
+}
+.title{
+    font-size:15px;
+    text-align: center;
+    padding-top:5px;
+    color: white;
+}
+.title:hover{
+    cursor: pointer;
+    color: rgb(235, 241, 182);
 }

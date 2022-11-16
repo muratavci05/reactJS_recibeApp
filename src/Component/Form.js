@@ -7,7 +7,8 @@ const Form = (props) => {
     <div className="container">
       
       <div className="row mainContainer">
-        <h4 className="container h1Container">Search Your Food Recibe</h4>
+        <h4 className="container h1Container">Search Your Food Recibe
+        </h4>
         <form
           className="col-sm-10 formContainer"
           
@@ -18,7 +19,9 @@ const Form = (props) => {
             type="text"
             readonly
           />
-          <button className="btn btn-outline-primary" type="submit">Search</button>
+          <button className="btn btn-outline-primary" type="submit">
+            Search
+            </button>
         </form>
       </div>
       <div>

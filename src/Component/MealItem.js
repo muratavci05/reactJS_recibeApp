@@ -1,15 +1,14 @@
 import React from "react";
 
-const MealItem =(props)=>{
+const Recipe = (props) => {
+  return (
+    <div className="card foodCart">
+        <img src="https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"/>
+        <h4 className="title">Apple Frangipan Tart</h4>  
 
-    return(
-        
-        <div className="cart foodCart">    
-           <img className="imgpictures"src="https://www.themealdb.com/images/media/meals/wxywrq1468235067.jpg"/> 
-           <h5>Apple Frangipan Tart</h5>
-        </div>
-        
-    );
+
+    </div>
+  );
 };
 
-export default MealItem;
+export default Recipe;
