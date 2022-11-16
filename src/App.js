@@ -1,12 +1,14 @@
 import React from "react";
-import Recibe from "./Pages/Recibe.js";
+import Form from "./Component/Form.js";
 
 function App() {
+
+
 
   return (
     <div className="App">
      
-        <Recibe/>
+        <Form/>
     </div>
   );
 }
