@@ -1,11 +1,24 @@
 import React from "react";
+import "./style.css";
 
 const Form = (props) => {
   return (
-    <div className="container my-3">
-      <div>
-        <form className="col-sm-10">
-          <input className="form-control sm-2" type="text" readonly />
+    <div className="container">
+        
+
+        
+      <div className="row mainContainer">
+        <h4 className="container h1Container">Search Your Food Recibe</h4>
+        <form
+          className="col-sm-10 formContainer"
+          
+        >
+          <input
+            className="form-control inputContainer"
+            
+            type="text"
+            readonly
+          />
           <button type="submit">Search</button>
         </form>
       </div>

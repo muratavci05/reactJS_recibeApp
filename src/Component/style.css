@@ -1,0 +1,19 @@
+.mainContainer{
+    justify-content: center;
+}
+
+.h1Container{
+    text-align:center;
+    margin-top: 15px;
+    margin-bottom:-10px;
+}
+
+.formContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.inputContainer{
+    width: 300px;
+}
