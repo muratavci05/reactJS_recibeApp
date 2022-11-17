@@ -1,10 +1,10 @@
 import React from "react";
 
 const ReacipeIndex = ({alphaIndex}) => {
-   const alpha = ['A', "B", "C", "D", "E", "F", "J", "I", "J", "k", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+   const alpha = ['A', "B", "C", "D", "E", "F", "J", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
    let num=0;
    return (
-        <>
+        <React.Fragment>
             {   
                 alpha.map(item => {
                     return(
@@ -13,7 +13,7 @@ const ReacipeIndex = ({alphaIndex}) => {
                     </div>)
                 })
             }
-        </>
+        </React.Fragment>
     )
 }
 export default ReacipeIndex;

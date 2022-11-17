@@ -18,10 +18,11 @@ const Header = (props) => {
             <h4
               className="headerLogoText"
               style={{
-                fontSize: "18px",
+                fontSize: "28px",
                 marginLeft: "10px",
-                color: "white",
+                color: "#CD6155",
                 tex: "none",
+                
               }}
             >
             APP

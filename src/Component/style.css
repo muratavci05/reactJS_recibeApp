@@ -24,6 +24,7 @@ body{
     margin-left: 5px;
     border-radius:45px 45px 45px 45px;
     
+    
 }
 
 .headerContainer:hover{
@@ -52,7 +53,7 @@ body{
     height:40px;
     border:none;
     outline:none;
-    border-radius: 1rem;
+    border-radius: 0px 20px 20px 0px;
     padding: 0.3rem 1rem;
 }
 .container{
@@ -68,6 +69,7 @@ body{
     background-color: #030e12;
     padding: 5px;
 }
+
 .card img{
     width: 100%;
     border-radius: 1rem 1rem 0 0;
@@ -102,6 +104,7 @@ body{
 .ingredients,.instructions{
     flex-basis: 50%;
     text-align: justify;
+    color: brown;
 }
 .ingredients h4{
     margin-top: 1.5rem;
@@ -118,10 +121,17 @@ body{
 .numBox {
     width: 50px;
     height: 40px;
-    background-color: #030e12;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(225, 92, 36);
     margin: 0 5px 0 5px;
+}
+
+.numBox:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+
 }

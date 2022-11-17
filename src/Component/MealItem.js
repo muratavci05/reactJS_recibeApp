@@ -4,7 +4,7 @@ const MealItem=({data})=>{
     console.log(data);
     let navigate = useNavigate();
     return(
-        <>  
+        <React.Fragment>  
             {
                 (!data) ?"Not Found": data.map(item=>{
                     return(
@@ -16,7 +16,7 @@ const MealItem=({data})=>{
                 })
             }
             
-        </>
+        </React.Fragment>
     )
 }
 export default MealItem;
