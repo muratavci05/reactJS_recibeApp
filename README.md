@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![](https://github.com/muratavci05/reactJS_recibeApp/blob/960266f01961a550970a61c20da3f304e29f02fd/src/Component/assents/recipeApp.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
