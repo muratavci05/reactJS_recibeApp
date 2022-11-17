@@ -11,9 +11,8 @@ body{
     
     width:100%;
     height: 100vh;
-    background-color: #83ecc7;
-    background-image: url("./assents/wallpaper2.webp");
-    background-repeat: no-repeat;
+    background-color: #686c6a;
+    background-image: url("./assents/wallpaper.jpg");
     background-size: 100% 100%;
 }
 .main{
@@ -116,4 +115,8 @@ body{
     align-items: center;
     color: white;
     margin: 0 5px 0 5px;
+}
+
+.footerComponent{
+    border-top: 1px solid gray;
 }
