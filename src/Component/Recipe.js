@@ -21,7 +21,7 @@ const Recipe = (props) => {
   }
 
   return (
-    <div>
+    <React.Fragment>
       {!item ? (
         ""
       ) : (
@@ -84,7 +84,7 @@ const Recipe = (props) => {
           </div>
         </div>
       )}
-    </div>
+    </React.Fragment>
   );
 };
 export default Recipe;

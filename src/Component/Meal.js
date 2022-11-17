@@ -31,10 +31,18 @@ const Meal = (props) => {
     <React.Fragment>
       <div className="main">
         <div className="heading">
-          <h1>Search Your Foods Recipe! - Yemek Tarifi Arayınız!</h1>
+        <h1>
+            Search Your Food Recipe <br />{" "}
+            <h4 className="trtitle">Yemek Tarifinizi Arayınız</h4>
+          </h1>
+          <h4 style={{ fontSize: "18px" }}>
+            <span style={{ color: "brown" }}>In this project; 
+            </span>It is aimed to create a project with recipe API with React JS
+          </h4>
         </div>
         <div className="searchBox">
-          <input
+          <input 
+            placeholder="👨‍💻Recipe by Main Ingredient - for example >> Apple"
             type="search"
             className="search-bar"
             onChange={(event) => setSearch(event.target.value)}

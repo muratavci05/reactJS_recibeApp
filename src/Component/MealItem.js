@@ -1,7 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 const MealItem = ({ data }) => {
-  console.log(data);
+  console.log("Meal Item Data",data);
+
   const navigate = useNavigate();
   return (
     <React.Fragment>
