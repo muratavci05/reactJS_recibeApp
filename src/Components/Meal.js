@@ -20,7 +20,7 @@ const Meal = () => {
       });
   }, [url]);
 
-  const searchRecipe = (evt) => {
+  const searchRecipe = (event) => {
     setUrl(`https://www.themealdb.com/api/json/v1/1/search.php?s=${search}`);
   };
   const setIndex = (alpha) => {
