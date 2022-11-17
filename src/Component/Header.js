@@ -1,17 +1,18 @@
 import React from "react";
-import bootstrapLogo from "./assents/bootstrap-logo.svg";
+//import bootstrapLogo from "./assents/bootstrap-logo.svg";
+import bootstrapLogo from "./assents/logo3.svg"
 import "./style.css";
 
 const Header = (props) => {
   return (
     <React.Fragment>
-      <nav className="navbar bg-success p-2 text-dark d-flex headerContainer">
+      <nav className="navbar bg-none p-2 text-dark d-flex headerContainer">
         <div className="container-fluid navbar-dark d-flex">
           <a className="navbar-brand d-flex " href="/">
             <img
               src={bootstrapLogo}
-              width="30"
-              height="24"
+              width="150"
+              height="84"
               className="d-inline-block align-text-top"
             />
             <h4
@@ -23,7 +24,7 @@ const Header = (props) => {
                 tex: "none",
               }}
             >
-              Recipe APP
+            APP
             </h4>
           </a>
         </div>

@@ -15,6 +15,7 @@ body{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    margin-top: -50px;
 }
 .headerContainer{
     width: 200px;
@@ -22,20 +23,20 @@ body{
     margin-top: 10px;
     margin-left: 5px;
     border-radius:45px 45px 45px 45px;
+    
 }
 
 .headerContainer:hover{
     cursor: pointer;
-    border-radius:55px 55px 95px 95px;
-    transition: 0.5sn;
-    box-shadow: 3px 3px 3px  10px rgb(95, 236, 99);
-
+    box-shadow: 0px 3px 0px 0px orange;
 }
 
 
 .headerLogoText{
     text-decoration: none;
-    color: blue;
+    position: absolute;
+    padding-left: 90px;
+    margin-top: 5px;
 }
 .heading h1{
     color:#030e12;
