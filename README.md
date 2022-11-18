@@ -2,21 +2,21 @@
 
 ![](https://github.com/muratavci05/reactJS_recibeApp/blob/960266f01961a550970a61c20da3f304e29f02fd/src/Component/assents/recipeApp.gif)
 
-#React Js + React-Router-Dom ile gerçek bir a API'ye bağlanma
-Proje Adı: Recipe API-APP
-Yazılım Dili: React JS
-Yararlanılan Kütüphane: React-Router-Dom (BrowserRouter Ana bileşeni kullanılmıştır),
-API: Gerçek Bir JSON API kullanılmıştır (free),
-API Adres: https://www.themealdb.com/
-Proje Özeti: 
-ReactJS component yapısına uygun olarak componentlere ayrılarak oluşturulmuş, React-Router-Dom ile uygulama sayfalarında rahat gezinebilmek için yararlanılmıştır.
--         Search: Aranılacak tarifin ilk harfinin girilmesi ile dinamik yapısı filtrelemeye başlıyor ekrana filtrelenmiş sonuçlar gelmektedir..dilerseniz hızlı sonuç için istenilen anahtar kelime search yapılabilir.
--         Dinamik Alfabetik Menü: Alfabetik olarak aranılan (A-Z) yemek tariflerine ulaşılabilir, koşullu if yapısı ile dinamiklendirilmiştir.
--         Dinamik sayfalar: API’den gelen benzersiz id yapısı ile her bir tarifin detaylı malzeme bilgisi, tarif ve youtube videosuna ulaşılabileceği bir sayfa yapısı oluşturulmuştur.
+#Connecting to a real a API with React Js + React-Router-Dom
+Project Name: Recipe API-APP
+Software Language: React JS
+Used Library: React-Router-Dom (BrowserRouter Main component is used),
+API: A real JSON API is used (free),
+API Address: https://www.themealdb.com/
+The project summary:
+It was created by dividing into components in accordance with the ReactJS component structure, and it was used to navigate the application pages easily with React-Router-Dom.
+- Search: By entering the first letter of the recipe to be searched, the dynamic structure starts to filter. Filtered results are displayed on the screen. If you wish, the desired keyword can be searched for quick results.
+- Dynamic Alphabetical Menu: Alphabetically searched (A-Z) recipes can be accessed, dynamically with a conditional if structure.
+- Dynamic pages: With the unique id structure coming from the API, a page structure has been created where detailed material information, recipe and youtube video of each recipe can be accessed.
 
-A.      Bu proje ile React JS ile gerçek bir backend API’ye bağlanma,
-B.      ReactJS Hooks’larından useState, useEffect kullanımı,
-C.     React-Router-Dom Hooks’larından useNavigate,useParams kullanımı,
-D.     React-Routuer-Dom BrowserRouter anabileşeni kullanımı,
-yapılarak, konuların pekiştirilmesi, farklı kullanım şekilleri deneyimlenmiştir.
-Uygulamanın Dinamik yapısının kullanıcı tarafından kolay kullanımı için API anasayfa’sından ilham alınarak tüm stillemeler için CSS kullanılmıştır.
+A. Connecting to a real backend API with React JS with this project,
+B. UseState, useEffect from ReactJS Hooks,
+C. UseNavigate,useParams from React-Router-Dom Hooks,
+D. Using the React-Routuer-Dom BrowserRouter component,
+By doing this, the subjects were reinforced and different usage patterns were experienced.
+Inspired by the API homepage, CSS has been used for all styling for the user's easy use of the Dynamic structure of the application.
