@@ -32,6 +32,9 @@
 ** b-UseState, useEffect from ReactJS Hooks,
 
 ** c-UseNavigate,useParams from React-Router-Dom Hooks,
+
 ** d-Using the React-Routuer-Dom BrowserRouter component,
+
 **By e-oing this, the subjects were reinforced and different usage patterns were experienced.
+
 Inspired by the API homepage, CSS has been used for all styling for the user's easy use of the Dynamic structure of the application.
