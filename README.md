@@ -4,11 +4,12 @@
 
 ![](https://github.com/muratavci05/reactJS_recibeApp/blob/960266f01961a550970a61c20da3f304e29f02fd/src/Component/assents/recipeApp.gif)
 
-#Connecting to a real a API with React Js + React-Router-Dom
-**Project Name: Recipe API-APP
-**Software Language: React JS
-**Used Library: React-Router-Dom (BrowserRouter Main component is used),
-**API: A real JSON API is used (free),
+#[]Connecting to a real a API with React Js + React-Router-Dom,
+
+**[]Project Name: Recipe API-APP
+**[]Software Language: React JS
+**[]Used Library: React-Router-Dom (BrowserRouter Main component is used),
+**[]API: A real JSON API is used (free),
 **API Address: https://www.themealdb.com/
 **The project summary:
 **It was created by dividing into components in accordance with the ReactJS component structure, and it was used to navigate the application pages easily with React-Router-Dom.
